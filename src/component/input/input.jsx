@@ -9,6 +9,6 @@ export const Input = () => {
   }, [context, setContext]);
 
   return (
-    <input className='input' value={context?.value} onChange={handleChange()} />
+    <input className='input' value={context?.value} placeholder="напишите существительное" onChange={handleChange()} />
   )
 };
