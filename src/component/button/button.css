@@ -7,3 +7,12 @@
   height: 40px;
   padding: 10px;
 }
+
+@media screen and (max-width: 608px) {
+  .button {
+    width: calc(100%);
+    height: calc(100% / 9);
+    min-height: 65px;
+    font-size: 1.5rem;
+  }
+}

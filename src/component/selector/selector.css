@@ -3,3 +3,12 @@
   padding: 10px;
   width: 240px;
 }
+
+@media screen and (max-width: 608px) {
+  .selector {
+    width: calc(100%);
+    height: calc(100% / 9);
+    min-height: 65px;
+    font-size: 1.5rem;
+  }
+}
