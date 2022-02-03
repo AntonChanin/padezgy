@@ -1,5 +1,6 @@
 .selector {
   border: 1px solid lightblue;
+  background-color: #ffffff;
   padding: 10px;
   width: 240px;
 }
