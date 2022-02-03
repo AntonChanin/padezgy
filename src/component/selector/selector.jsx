@@ -7,17 +7,16 @@ export const Selector = () => {
   const [context, setContext] = useContext(MainContext);
   const handleSelect = useCallback(() => e => {
     setValue(e.target.value);
-    console.log({ value: context?.value, returnValue: context?.returnValue, case: e.target.value })
     setContext({ value: context?.value, returnValue: context?.returnValue, case: e.target.value });
   }, [context, setContext]);
 
   return (
     <select className="selector" name="select" value={value} onChange={handleSelect()}>
-      <option value="р" selected>Родительный</option>
-      <option value="д">Дательный</option>
-      <option value="в">Винительный</option>
-      <option value="т">Творительный</option>
-      <option value="п">Предложный</option>
+      <option value="р" selected>Родительный (кого? чего?)</option>
+      <option value="д">Дательный (кому? чему?)</option>
+      <option value="в">Винительный (кого? что?)</option>
+      <option value="т">Творительный (кем? чем?)</option>
+      <option value="п">Предложный (о ком? о чом?)</option>
     </select>
   )
 };
