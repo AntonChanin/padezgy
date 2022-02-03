@@ -1,4 +1,5 @@
 .title {
   text-transform: capitalize;
   font-style: italic;
+  margin: initial;
 }
