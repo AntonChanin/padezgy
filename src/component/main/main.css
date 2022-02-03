@@ -35,6 +35,20 @@
 
 @media screen and (max-width: 608px) {
   .main-canvas_body {
-    height: 120px;
+    height: calc(100% - 183px);
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: flex-start;
+  }
+
+  .main-canvas_search {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 100%;
+    max-height: initial;
+    margin: 0 0 10px 0;
   }
 }
