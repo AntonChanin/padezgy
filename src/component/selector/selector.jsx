@@ -12,7 +12,7 @@ export const Selector = () => {
 
   return (
     <select className="selector" name="select" value={value} onChange={handleSelect()}>
-      <option value="р" selected>Родительный (кого? чего?)</option>
+      <option value="р">Родительный (кого? чего?)</option>
       <option value="д">Дательный (кому? чему?)</option>
       <option value="в">Винительный (кого? что?)</option>
       <option value="т">Творительный (кем? чем?)</option>
