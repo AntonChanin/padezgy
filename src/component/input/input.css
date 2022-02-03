@@ -1,0 +1,6 @@
+.input {
+  border: 1px solid lightblue;
+  padding: 10px;
+  width: 240px;
+  height: calc(100% - 22px);
+}

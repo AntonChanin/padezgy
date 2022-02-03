@@ -1,0 +1,12 @@
+.main-canvas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 600px;
+}
+
+.main-canvas_search {
+  max-height: 40px;
+  display: inherit;
+}

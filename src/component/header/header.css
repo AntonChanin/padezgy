@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+
+.header-canvas {
+  max-width: 1600px;
+  padding: calc(50% - 800px);
+  height: 90px;
+  background-color: #8a2be2;
+}
+
+.header-body {
+  margin: auto 200px;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 1500px) {
+  .header-body {
+    margin: auto 20px;
+  }
+  .header-body nav {
+    font-size: 14px;
+    width: 427px;
+  }
+  .call-nav {
+    max-width: 210px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header-body nav {
+    font-size: 8px;
+    width: 235px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header-canvas {
+    max-width: 700px;
+    padding: calc(50% - 350px);
+  }
+  .header-body {
+    margin: auto 40px;
+    justify-content: space-between;
+    margin: auto 20px;
+  }
+
+  .logotype {
+    max-width: 317px;
+    width: 100%;
+  }
+
+  .header-body nav {
+    display: none;
+  }
+
+  .header-body button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    margin: 0 3px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header-body {
+    margin: auto 10px;
+    justify-content: space-between;
+  }
+
+  .call-phone {
+    display: none;
+  }
+
+  .call-nav {
+    width: auto;
+  }
+}
